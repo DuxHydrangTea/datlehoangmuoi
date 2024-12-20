@@ -1,0 +1,32 @@
+.main-about-us {
+  font-size: 2rem;
+  padding: 20px;
+  line-height: 2;
+}
+.main-about-us-heading {
+  text-align: center;
+}
+.main-about-us-heading strong {
+  font-size: 5rem;
+  color: #b18919;
+}
+.main-about-us-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.main-about-us-form button[type=submit] {
+  margin-top: 20px;
+  padding: 10px 40px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+  padding: 10px 25px;
+}/*# sourceMappingURL=about.css.map */

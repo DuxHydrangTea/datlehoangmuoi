@@ -1,0 +1,211 @@
+#gom-all-in-one {
+  margin-bottom: 30px;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 15px transparent;
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+#button-contact-vr {
+  right: 0;
+}
+
+.phone-bar a {
+  left: auto;
+  right: 30px;
+  padding: 8px 55px 7px 15px;
+}
+
+#button-contact-vr.active #gom-all-in-one .button-contact {
+  margin-left: 100%;
+}
+
+#button-contact-vr {
+  bottom: 30%;
+}
+
+#gom-all-in-one #zalo-vr {
+  transition: 1s all;
+  -moz-transition: 1s all;
+  -webkit-transition: 1s all;
+}
+
+#zalo-vr .phone-vr-circle-fill {
+  box-shadow: 0 0 0 0 #2196f3;
+  background-color: rgba(33, 150, 243, 0.7);
+}
+
+.phone-vr-circle-fill {
+  width: 65px;
+  height: 65px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  box-shadow: 0 0 0 0 #c31d1d;
+  background-color: rgba(230, 8, 8, 0.7);
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+  transition: all 0.5s;
+  transform-origin: 50% 50%;
+  -webkit-animuiion: zoom 1.3s infinite;
+  animation: zoom 1.3s infinite;
+}
+
+.phone-vr-img-circle a {
+  display: block;
+  line-height: 37px;
+  animation: luc-lac 1000ms ease infinite;
+}
+
+@keyframes luc-lac {
+  33% {
+    rotate: 15deg;
+    scale: 1.01;
+  }
+  66% {
+    rotate: -15deg;
+    scale: 0.95;
+  }
+}
+.phone-vr-img-circle img {
+  max-height: 25px;
+  max-width: 27px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+#zalo-vr .phone-vr-img-circle {
+  background-color: #2196f3;
+}
+
+.phone-vr-img-circle {
+  background-color: #e60808;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  animation: phone-vr-circle-fill 1s infinite ease-in-out;
+}
+
+#button-contact-vr .button-contact .phone-vr {
+  position: relative;
+  visibility: visible;
+  background-color: transparent;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  z-index: 11;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transition: visibility 0.5s;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+#gom-all-in-one #phone-vr {
+  transition: 0.7s all;
+  -moz-transition: 0.7s all;
+  -webkit-transition: 0.7s all;
+}
+
+#button-contact-vr .button-contact {
+  position: relative;
+  margin-top: 5px;
+}
+
+#phone-vr .phone-vr-circle-fill {
+  opacity: 0.7;
+  box-shadow: 0 0 0 0 #d33;
+}
+
+.phone-bar a,
+#phone-vr .phone-vr-circle-fill,
+#phone-vr .phone-vr-img-circle,
+#phone-vr .phone-bar a {
+  background-color: #d33;
+}
+
+#button-contact-vr {
+  bottom: 30%;
+}
+
+#button-contact-vr {
+  position: fixed;
+  bottom: 0;
+  left: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 99999;
+}
+
+#popup-showroom-vr,
+div#popup-form-contact-vr {
+  display: none;
+}
+
+.bg-popup-vr {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 673px) {
+  div#popup-form-contact-vr .content-popup-vr {
+    display: block;
+  }
+  .content-popup-vr {
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 0 0 14px 5px rgba(0, 0, 0, 0.49);
+    max-width: 600px;
+    display: flex;
+  }
+  .content-popup-vr .content-popup-div-vr {
+    width: 100%;
+    padding: 25px;
+  }
+  .content-popup-vr .close-popup-vr {
+    font-family: sans-serif;
+    width: 23px;
+    height: 23px;
+    background: #000;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+    font-size: 17px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=pop-up.css.map */

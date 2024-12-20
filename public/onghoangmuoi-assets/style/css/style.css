@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=LXGW+WenKai+Mono+TC&family=Lexend+Deca:wght@100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=LXGW+WenKai+Mono+TC&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff5cd;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.slide-up {
+  visibility: visible !important;
+  max-height: 1000px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

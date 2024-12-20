@@ -1,0 +1,51 @@
+.form-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.5803921569);
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  translate: -50% -50%;
+  border: 1px solid blueviolet;
+  font-size: 1.3rem;
+  z-index: 1;
+}
+.form-popup input,
+.form-popup textarea,
+.form-popup select {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-popup button[type=submit] {
+  margin: 1rem 0;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.btn-x-mark {
+  height: 30px;
+  width: 30px;
+  background-color: brown;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-open-add-category {
+  background-color: cadetblue;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=form-pop-up.css.map */
